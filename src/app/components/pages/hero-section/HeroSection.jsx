@@ -18,11 +18,11 @@ function HeroSection() {
     <div className="h-screen relative w-full overflow-hidden bg-slate-900 flex flex-col items-center justify-center rounded-lg">
       <div className="absolute inset-0 w-full h-full bg-slate-900 z-20 [mask-image:radial-gradient(transparent,white)] pointer-events-none" />
 
-      <Boxes />
+      {/* <Boxes /> */}
   
       <div className="grid grid-cols-1 items-start lg:grid-cols-2 lg:gap-12 gap-y-8">
         <div className="order-2 lg:order-1 flex flex-col items-start justify-center p-2 pb-20 md:pb-10 lg:pt-10">
-          <motion.div
+          {/* <motion.div
             className="text-3xl font-bold leading-10 text-white md:font-extrabold lg:text-[2.6rem] lg:leading-[3.5rem] relative z-20"
             initial={{
               x: -40,
@@ -36,7 +36,7 @@ function HeroSection() {
             This is <span className=" text-pink-500">ALIF DANISH ARSHAD</span>
             {` , I'm a Professional `}
             <span className=" text-[#16f2b3]">Software Developer</span>.
-          </motion.div>
+          </motion.div> */}
 
           <div className="my-12 flex items-center gap-5 relative z-20">
             <Link
