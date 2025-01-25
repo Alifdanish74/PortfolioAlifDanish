@@ -8,20 +8,15 @@ import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { MdDownload } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
 import { motion } from "framer-motion";
-import { Boxes } from "../../ui/background-boxes";
-import { cn } from "../../../lib/utils";
 
 function HeroSection() {
   return (
-    
-
     <div className="h-screen relative w-full overflow-hidden bg-slate-900 flex flex-col items-center justify-center rounded-lg">
       <div className="absolute inset-0 w-full h-full bg-slate-900 z-20 [mask-image:radial-gradient(transparent,white)] pointer-events-none" />
-
-      {/* <Boxes /> */}
   
-      <div className="grid grid-cols-1 items-start lg:grid-cols-2 lg:gap-12 gap-y-8">
-        <div className=" lg:order-1 flex flex-col items-start justify-center p-2 pt-20 pb-20 md:pb-10 lg:pt-10">
+      <div className="grid grid-cols-1 items-start lg:grid-cols-2 ">
+        <div className=" lg:order-1 flex flex-col items-start justify-center p-2 pt-20 md:pb-10 lg:pt-10">
+          {/* INTRO NAMA */}
           <motion.div
             className="text-3xl font-bold leading-10 text-white md:font-extrabold lg:text-[2.6rem] lg:leading-[3.5rem] relative z-20"
             initial={{
@@ -38,7 +33,8 @@ function HeroSection() {
             <span className=" text-[#16f2b3]">Software Developer</span>.
           </motion.div>
 
-          <div className="my-12 flex items-center gap-5 relative z-20">
+          {/* SOCIAL MEDIA LINK */}
+          <div className="my-6 flex items-center gap-5 relative z-20">
             <Link
               href={personalData.whatsapp}
               target="_blank"
@@ -68,7 +64,7 @@ function HeroSection() {
               <FaInstagram size={30} />
             </Link>
           </div>
-
+            {/* CONTACT ME BUTTON */}
           <div className="flex items-center gap-3 relative z-20">
             <Link
               href="#contact"
@@ -91,7 +87,8 @@ function HeroSection() {
             </Link>
           </div>
         </div>
-        <div className="order-2 lg:order-2 from-[#0d1224] border-[#1b2c68a0] rounded-lg border bg-gradient-to-r to-[#0a0d37] relative z-20">
+        {/* CODING BLOCK */}
+        <div className="order-2 lg:order-2 min-h-[450px] from-[#0d1224] border-[#1b2c68a0] rounded-lg border bg-gradient-to-r to-[#0a0d37] relative z-20">
           <div className="flex flex-row">
             <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-pink-500 to-violet-600"></div>
             <div className="h-[1px] w-full bg-gradient-to-r from-violet-600 to-transparent"></div>

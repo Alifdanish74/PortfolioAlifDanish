@@ -8,7 +8,7 @@ export const educations = [
   },
   {
     id: 2,
-    title: "Matriculation (Module 2)",
+    title: "Matriculation",
     duration: "2018 - 2019",
     institution: "Selangor Matriculation College",
     achievement: "CGPA: 3.33"

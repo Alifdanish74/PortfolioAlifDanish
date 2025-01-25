@@ -4,6 +4,7 @@ import AboutSection from "./components/pages/about/About";
 import Education from "./components/pages/education/Education";
 import Experience from "./components/pages/experience/Experience";
 import Skills from "./components/pages/skill/Skills";
+import Projects from "./components/pages/project/Project";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Experience/>
       <Skills/>
       <Education/>
+      <Projects/>
     </div>
   );
 }

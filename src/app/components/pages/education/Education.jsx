@@ -31,27 +31,15 @@ function Education() {
         </div>
       </div>
 
-      <div className="py-8">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
-          <div className="flex justify-center items-start">
-            <div className="w-3/4 h-3/4">
-            {/* <AnimationLottie animationData={lottieFile} width="95%" /> */}
-            </div>
-          </div>
-
+      <div className="py-8 flex items-center justify-center mx-auto">
+        <div className=" gap-8 lg:gap-16">
           <div>
             <div className="flex flex-col gap-6">
               {
                 educations.map(education => (
                   <div key={education.id} identifier={`education-${education.id}`}>
-                    <div className="p-3 relative text-white">
-                      {/* <Image
-                        src="/blur-23.svg"
-                        alt="Hero"
-                        width={1080}
-                        height={200}
-                        className="absolute bottom-0 opacity-80"
-                      /> */}
+                    <div className="p-3 relative border border-white rounded-2xl text-white">
+                    
                       <div className="flex justify-center">
                         <p className="text-xs sm:text-sm text-[#16f2b3]">
                           {education.duration}
