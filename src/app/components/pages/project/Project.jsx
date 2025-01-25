@@ -36,14 +36,14 @@ const Projects = () => {
         <ContainerScroll
           titleComponent={
             <>
-              <h1 className="text-2xl font-semibold text-white">
+              <h1 className="text-md md:text-2xl font-semibold text-white">
                 Digital Wedding Card Invitation <br />
                 {/* <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none">
                   Jemputkahwin.com.my
                 </span> */}
                 <LinkPreview
                   url="https://jemputkahwin.com.my"
-                  className="text-4xl md:text-[5rem] font-bold mt-1 leading-none"
+                  className="text-2xl md:text-[5rem] font-bold mt-1 leading-none"
                 >
                   JemputKahwin.com.my
                 </LinkPreview>{" "}

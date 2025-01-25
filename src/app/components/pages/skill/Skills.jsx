@@ -35,7 +35,7 @@ function Skills() {
           <InfiniteMovingCards
             items={skillsData}
             direction="right"
-            speed="slow"
+            speed="normal"
           />
         </div>
       </div>
